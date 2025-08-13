@@ -1,0 +1,1202 @@
+[
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Hillsdale, IL ",
+    "population": " 507"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Ogden, IL ",
+    "population": " 777"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Indianola, IL ",
+    "population": " 381"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Henning, IL ",
+    "population": " 364"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Norwood, IL ",
+    "population": " 453"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Prairie Du Rocher, IL ",
+    "population": " 690"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Vermont, IL ",
+    "population": " 754"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Shannon, IL ",
+    "population": " 701"
+  },
+  {
+    "rank": "1",
+    "crimeIndex": "0",
+    "city": "Lenzburg, IL ",
+    "population": " 524"
+  },
+  {
+    "rank": "10",
+    "crimeIndex": "10",
+    "city": "Fithian, IL ",
+    "population": " 481"
+  },
+  {
+    "rank": "11",
+    "crimeIndex": "14",
+    "city": "Pierron, IL ",
+    "population": " 459"
+  },
+  {
+    "rank": "12",
+    "crimeIndex": "19",
+    "city": "Pittsfield, IL ",
+    "population": " 4730"
+  },
+  {
+    "rank": "13",
+    "crimeIndex": "21",
+    "city": "Albers, IL ",
+    "population": " 1163"
+  },
+  {
+    "rank": "14",
+    "crimeIndex": "25",
+    "city": "Davis, IL ",
+    "population": " 838"
+  },
+  {
+    "rank": "15",
+    "crimeIndex": "76",
+    "city": "Aviston, IL ",
+    "population": " 2092"
+  },
+  {
+    "rank": "16",
+    "crimeIndex": "79",
+    "city": "Fairmount, IL ",
+    "population": " 534"
+  },
+  {
+    "rank": "17",
+    "crimeIndex": "84",
+    "city": "Cowden, IL ",
+    "population": " 579"
+  },
+  {
+    "rank": "18",
+    "crimeIndex": "88",
+    "city": "Stronghurst, IL ",
+    "population": " 995"
+  },
+  {
+    "rank": "19",
+    "crimeIndex": "90",
+    "city": "Hutsonville, IL ",
+    "population": " 468"
+  },
+  {
+    "rank": "20",
+    "crimeIndex": "101",
+    "city": "Virginia, IL ",
+    "population": " 1369"
+  },
+  {
+    "rank": "21",
+    "crimeIndex": "101",
+    "city": "Belgium, IL ",
+    "population": " 379"
+  },
+  {
+    "rank": "22",
+    "crimeIndex": "106",
+    "city": "Fairview, IL ",
+    "population": " 515"
+  },
+  {
+    "rank": "23",
+    "crimeIndex": "109",
+    "city": "Rossville, IL ",
+    "population": " 1495"
+  },
+  {
+    "rank": "24",
+    "crimeIndex": "109",
+    "city": "Granville, IL ",
+    "population": " 1457"
+  },
+  {
+    "rank": "25",
+    "crimeIndex": "110",
+    "city": "Sidell, IL ",
+    "population": " 688"
+  },
+  {
+    "rank": "26",
+    "crimeIndex": "110",
+    "city": "New Berlin, IL ",
+    "population": " 1444"
+  },
+  {
+    "rank": "27",
+    "crimeIndex": "118",
+    "city": "Buda, IL ",
+    "population": " 671"
+  },
+  {
+    "rank": "28",
+    "crimeIndex": "119",
+    "city": "Washburn, IL ",
+    "population": " 1022"
+  },
+  {
+    "rank": "29",
+    "crimeIndex": "120",
+    "city": "Chebanse, IL ",
+    "population": " 1140"
+  },
+  {
+    "rank": "30",
+    "crimeIndex": "121",
+    "city": "Hawthorn Woods, IL ",
+    "population": " 7727"
+  },
+  {
+    "rank": "31",
+    "crimeIndex": "123",
+    "city": "Woodhull, IL ",
+    "population": " 1076"
+  },
+  {
+    "rank": "32",
+    "crimeIndex": "129",
+    "city": "Easton, IL ",
+    "population": " 345"
+  },
+  {
+    "rank": "33",
+    "crimeIndex": "133",
+    "city": "Lexington, IL ",
+    "population": " 2213"
+  },
+  {
+    "rank": "34",
+    "crimeIndex": "141",
+    "city": "Smithton, IL ",
+    "population": " 3706"
+  },
+  {
+    "rank": "35",
+    "crimeIndex": "144",
+    "city": "Inverness, IL ",
+    "population": " 7516"
+  },
+  {
+    "rank": "36",
+    "crimeIndex": "147",
+    "city": "Pleasant Plains, IL ",
+    "population": " 892"
+  },
+  {
+    "rank": "37",
+    "crimeIndex": "154",
+    "city": "Patoka, IL ",
+    "population": " 597"
+  },
+  {
+    "rank": "38",
+    "crimeIndex": "157",
+    "city": "Lakewood, IL ",
+    "population": " 4411"
+  },
+  {
+    "rank": "39",
+    "crimeIndex": "158",
+    "city": "Bull Valley, IL ",
+    "population": " 1202"
+  },
+  {
+    "rank": "40",
+    "crimeIndex": "158",
+    "city": "Clayton, IL ",
+    "population": " 651"
+  },
+  {
+    "rank": "41",
+    "crimeIndex": "166",
+    "city": "Malta, IL ",
+    "population": " 1115"
+  },
+  {
+    "rank": "42",
+    "crimeIndex": "166",
+    "city": "Maple Park, IL ",
+    "population": " 1366"
+  },
+  {
+    "rank": "43",
+    "crimeIndex": "166",
+    "city": "Wayne, IL ",
+    "population": " 2445"
+  },
+  {
+    "rank": "44",
+    "crimeIndex": "169",
+    "city": "Rankin, IL ",
+    "population": " 418"
+  },
+  {
+    "rank": "45",
+    "crimeIndex": "175",
+    "city": "Orion, IL ",
+    "population": " 1957"
+  },
+  {
+    "rank": "46",
+    "crimeIndex": "176",
+    "city": "Campton Hills, IL ",
+    "population": " 10908"
+  },
+  {
+    "rank": "47",
+    "crimeIndex": "177",
+    "city": "Gifford, IL ",
+    "population": " 923"
+  },
+  {
+    "rank": "48",
+    "crimeIndex": "177",
+    "city": "Blandinsville, IL ",
+    "population": " 695"
+  },
+  {
+    "rank": "49",
+    "crimeIndex": "181",
+    "city": "Western Springs, IL ",
+    "population": " 13066"
+  },
+  {
+    "rank": "50",
+    "crimeIndex": "183",
+    "city": "Winfield, IL ",
+    "population": " 9368"
+  },
+  {
+    "rank": "51",
+    "crimeIndex": "185",
+    "city": "Grantfork, IL ",
+    "population": " 393"
+  },
+  {
+    "rank": "52",
+    "crimeIndex": "188",
+    "city": "Stanford, IL ",
+    "population": " 603"
+  },
+  {
+    "rank": "53",
+    "crimeIndex": "190",
+    "city": "Clarendon Hills, IL ",
+    "population": " 8548"
+  },
+  {
+    "rank": "54",
+    "crimeIndex": "194",
+    "city": "Kingston, IL ",
+    "population": " 1029"
+  },
+  {
+    "rank": "55",
+    "crimeIndex": "195",
+    "city": "Orland Hills, IL ",
+    "population": " 7252"
+  },
+  {
+    "rank": "56",
+    "crimeIndex": "197",
+    "city": "Waterloo, IL ",
+    "population": " 10102"
+  },
+  {
+    "rank": "57",
+    "crimeIndex": "203",
+    "city": "Kirkland, IL ",
+    "population": " 1791"
+  },
+  {
+    "rank": "58",
+    "crimeIndex": "203",
+    "city": "Teutopolis, IL ",
+    "population": " 1863"
+  },
+  {
+    "rank": "59",
+    "crimeIndex": "208",
+    "city": "Channahon, IL ",
+    "population": " 12422"
+  },
+  {
+    "rank": "60",
+    "crimeIndex": "213",
+    "city": "Lake Forest, IL ",
+    "population": " 18914"
+  },
+  {
+    "rank": "61",
+    "crimeIndex": "220",
+    "city": "Colchester, IL ",
+    "population": " 1391"
+  },
+  {
+    "rank": "62",
+    "crimeIndex": "226",
+    "city": "Mount Pulaski, IL ",
+    "population": " 1257"
+  },
+  {
+    "rank": "63",
+    "crimeIndex": "228",
+    "city": "Germantown, IL ",
+    "population": " 1142"
+  },
+  {
+    "rank": "64",
+    "crimeIndex": "235",
+    "city": "Riverwoods, IL ",
+    "population": " 3792"
+  },
+  {
+    "rank": "65",
+    "crimeIndex": "250",
+    "city": "Lindenhurst, IL ",
+    "population": " 14412"
+  },
+  {
+    "rank": "66",
+    "crimeIndex": "251",
+    "city": "Sleepy Hollow, IL ",
+    "population": " 3336"
+  },
+  {
+    "rank": "67",
+    "crimeIndex": "252",
+    "city": "Ashton, IL ",
+    "population": " 947"
+  },
+  {
+    "rank": "68",
+    "crimeIndex": "252",
+    "city": "Pingree Grove, IL ",
+    "population": " 5062"
+  },
+  {
+    "rank": "69",
+    "crimeIndex": "252",
+    "city": "Mount Olive, IL ",
+    "population": " 2085"
+  },
+  {
+    "rank": "70",
+    "crimeIndex": "253",
+    "city": "Moweaqua, IL ",
+    "population": " 1793"
+  },
+  {
+    "rank": "71",
+    "crimeIndex": "261",
+    "city": "Ruma, IL ",
+    "population": " 382"
+  },
+  {
+    "rank": "72",
+    "crimeIndex": "267",
+    "city": "Manhattan, IL ",
+    "population": " 7017"
+  },
+  {
+    "rank": "73",
+    "crimeIndex": "271",
+    "city": "Sherman, IL ",
+    "population": " 4016"
+  },
+  {
+    "rank": "74",
+    "crimeIndex": "278",
+    "city": "Edinburg, IL ",
+    "population": " 1065"
+  },
+  {
+    "rank": "75",
+    "crimeIndex": "278",
+    "city": "Ashland, IL ",
+    "population": " 1200"
+  },
+  {
+    "rank": "76",
+    "crimeIndex": "279",
+    "city": "Lake In The Hills, IL ",
+    "population": " 28926"
+  },
+  {
+    "rank": "77",
+    "crimeIndex": "279",
+    "city": "Huntley, IL ",
+    "population": " 25200"
+  },
+  {
+    "rank": "78",
+    "crimeIndex": "280",
+    "city": "Elburn, IL ",
+    "population": " 5733"
+  },
+  {
+    "rank": "79",
+    "crimeIndex": "287",
+    "city": "Buffalo Grove, IL ",
+    "population": " 41613"
+  },
+  {
+    "rank": "80",
+    "crimeIndex": "287",
+    "city": "Cambridge, IL ",
+    "population": " 2189"
+  },
+  {
+    "rank": "81",
+    "crimeIndex": "288",
+    "city": "La Grange Park, IL ",
+    "population": " 13624"
+  },
+  {
+    "rank": "82",
+    "crimeIndex": "291",
+    "city": "Homer Glen, IL ",
+    "population": " 24322"
+  },
+  {
+    "rank": "83",
+    "crimeIndex": "295",
+    "city": "Witt, IL ",
+    "population": " 775"
+  },
+  {
+    "rank": "84",
+    "crimeIndex": "298",
+    "city": "Willisville, IL ",
+    "population": " 425"
+  },
+  {
+    "rank": "85",
+    "crimeIndex": "302",
+    "city": "Danvers, IL ",
+    "population": " 1117"
+  },
+  {
+    "rank": "86",
+    "crimeIndex": "302",
+    "city": "Mclean, IL ",
+    "population": " 841"
+  },
+  {
+    "rank": "87",
+    "crimeIndex": "302",
+    "city": "Bartlett, IL ",
+    "population": " 41529"
+  },
+  {
+    "rank": "88",
+    "crimeIndex": "303",
+    "city": "Palos Park, IL ",
+    "population": " 4919"
+  },
+  {
+    "rank": "89",
+    "crimeIndex": "305",
+    "city": "Raymond, IL ",
+    "population": " 732"
+  },
+  {
+    "rank": "90",
+    "crimeIndex": "305",
+    "city": "Lake Bluff, IL ",
+    "population": " 5867"
+  },
+  {
+    "rank": "91",
+    "crimeIndex": "305",
+    "city": "Glasford, IL ",
+    "population": " 1018"
+  },
+  {
+    "rank": "92",
+    "crimeIndex": "306",
+    "city": "Gilberts, IL ",
+    "population": " 7256"
+  },
+  {
+    "rank": "93",
+    "crimeIndex": "308",
+    "city": "Ridge Farm, IL ",
+    "population": " 836"
+  },
+  {
+    "rank": "94",
+    "crimeIndex": "311",
+    "city": "Kildeer, IL ",
+    "population": " 3917"
+  },
+  {
+    "rank": "95",
+    "crimeIndex": "312",
+    "city": "Potomac, IL ",
+    "population": " 728"
+  },
+  {
+    "rank": "96",
+    "crimeIndex": "312",
+    "city": "Barrington Hills, IL ",
+    "population": " 3653"
+  },
+  {
+    "rank": "97",
+    "crimeIndex": "314",
+    "city": "Glencoe, IL ",
+    "population": " 8824"
+  },
+  {
+    "rank": "98",
+    "crimeIndex": "315",
+    "city": "Willow Springs, IL ",
+    "population": " 5692"
+  },
+  {
+    "rank": "99",
+    "crimeIndex": "317",
+    "city": "Hopedale, IL ",
+    "population": " 1018"
+  },
+  {
+    "rank": "100",
+    "crimeIndex": "319",
+    "city": "Deerfield, IL ",
+    "population": " 18476"
+  },
+  {
+    "rank": "101",
+    "crimeIndex": "322",
+    "city": "Waverly, IL ",
+    "population": " 1237"
+  },
+  {
+    "rank": "102",
+    "crimeIndex": "324",
+    "city": "Diamond, IL ",
+    "population": " 2764"
+  },
+  {
+    "rank": "103",
+    "crimeIndex": "326",
+    "city": "Stonington, IL ",
+    "population": " 889"
+  },
+  {
+    "rank": "104",
+    "crimeIndex": "328",
+    "city": "Sugar Grove, IL ",
+    "population": " 9096"
+  },
+  {
+    "rank": "105",
+    "crimeIndex": "330",
+    "city": "Greenfield, IL ",
+    "population": " 1346"
+  },
+  {
+    "rank": "106",
+    "crimeIndex": "331",
+    "city": "Homer, IL ",
+    "population": " 1159"
+  },
+  {
+    "rank": "107",
+    "crimeIndex": "334",
+    "city": "Beckemeyer, IL ",
+    "population": " 988"
+  },
+  {
+    "rank": "108",
+    "crimeIndex": "336",
+    "city": "Glen Carbon, IL ",
+    "population": " 13095"
+  },
+  {
+    "rank": "109",
+    "crimeIndex": "342",
+    "city": "Spring Grove, IL ",
+    "population": " 5390"
+  },
+  {
+    "rank": "110",
+    "crimeIndex": "346",
+    "city": "Leland Grove, IL ",
+    "population": " 1521"
+  },
+  {
+    "rank": "111",
+    "crimeIndex": "348",
+    "city": "Cortland, IL ",
+    "population": " 4375"
+  },
+  {
+    "rank": "112",
+    "crimeIndex": "350",
+    "city": "Palos Hills, IL ",
+    "population": " 17584"
+  },
+  {
+    "rank": "113",
+    "crimeIndex": "355",
+    "city": "Dwight, IL ",
+    "population": " 4104"
+  },
+  {
+    "rank": "114",
+    "crimeIndex": "360",
+    "city": "Breese, IL ",
+    "population": " 4577"
+  },
+  {
+    "rank": "115",
+    "crimeIndex": "362",
+    "city": "Hinsdale, IL ",
+    "population": " 16898"
+  },
+  {
+    "rank": "116",
+    "crimeIndex": "362",
+    "city": "Athens, IL ",
+    "population": " 1996"
+  },
+  {
+    "rank": "117",
+    "crimeIndex": "365",
+    "city": "Hampshire, IL ",
+    "population": " 6053"
+  },
+  {
+    "rank": "118",
+    "crimeIndex": "365",
+    "city": "Geneva, IL ",
+    "population": " 21662"
+  },
+  {
+    "rank": "119",
+    "crimeIndex": "366",
+    "city": "Round Lake Park, IL ",
+    "population": " 7758"
+  },
+  {
+    "rank": "120",
+    "crimeIndex": "367",
+    "city": "Hudson, IL ",
+    "population": " 1918"
+  },
+  {
+    "rank": "121",
+    "crimeIndex": "372",
+    "city": "Grant Park, IL ",
+    "population": " 1323"
+  },
+  {
+    "rank": "122",
+    "crimeIndex": "372",
+    "city": "Oakwood Hills, IL ",
+    "population": " 2079"
+  },
+  {
+    "rank": "123",
+    "crimeIndex": "373",
+    "city": "Erie, IL ",
+    "population": " 1594"
+  },
+  {
+    "rank": "124",
+    "crimeIndex": "374",
+    "city": "Minonk, IL ",
+    "population": " 2160"
+  },
+  {
+    "rank": "125",
+    "crimeIndex": "375",
+    "city": "Loami, IL ",
+    "population": " 840"
+  },
+  {
+    "rank": "126",
+    "crimeIndex": "380",
+    "city": "Arcola, IL ",
+    "population": " 3017"
+  },
+  {
+    "rank": "127",
+    "crimeIndex": "386",
+    "city": "Mount Zion, IL ",
+    "population": " 5830"
+  },
+  {
+    "rank": "128",
+    "crimeIndex": "387",
+    "city": "Kincaid, IL ",
+    "population": " 1666"
+  },
+  {
+    "rank": "129",
+    "crimeIndex": "390",
+    "city": "Carterville, IL ",
+    "population": " 5635"
+  },
+  {
+    "rank": "130",
+    "crimeIndex": "393",
+    "city": "Winnetka, IL ",
+    "population": " 12366"
+  },
+  {
+    "rank": "131",
+    "crimeIndex": "396",
+    "city": "Herscher, IL ",
+    "population": " 1519"
+  },
+  {
+    "rank": "132",
+    "crimeIndex": "400",
+    "city": "Itasca, IL ",
+    "population": " 8579"
+  },
+  {
+    "rank": "133",
+    "crimeIndex": "401",
+    "city": "Lakemoor, IL ",
+    "population": " 6576"
+  },
+  {
+    "rank": "134",
+    "crimeIndex": "403",
+    "city": "Wheaton, IL ",
+    "population": " 53406"
+  },
+  {
+    "rank": "135",
+    "crimeIndex": "404",
+    "city": "Hinckley, IL ",
+    "population": " 2052"
+  },
+  {
+    "rank": "136",
+    "crimeIndex": "406",
+    "city": "Pawnee, IL ",
+    "population": " 2786"
+  },
+  {
+    "rank": "137",
+    "crimeIndex": "408",
+    "city": "Chenoa, IL ",
+    "population": " 1806"
+  },
+  {
+    "rank": "138",
+    "crimeIndex": "408",
+    "city": "Lake Villa, IL ",
+    "population": " 8860"
+  },
+  {
+    "rank": "139",
+    "crimeIndex": "410",
+    "city": "Shawneetown, IL ",
+    "population": " 1224"
+  },
+  {
+    "rank": "140",
+    "crimeIndex": "410",
+    "city": "Mascoutah, IL ",
+    "population": " 7675"
+  },
+  {
+    "rank": "141",
+    "crimeIndex": "411",
+    "city": "Mount Morris, IL ",
+    "population": " 3155"
+  },
+  {
+    "rank": "142",
+    "crimeIndex": "416",
+    "city": "Pinckneyville, IL ",
+    "population": " 5600"
+  },
+  {
+    "rank": "143",
+    "crimeIndex": "420",
+    "city": "Kenilworth, IL ",
+    "population": " 2648"
+  },
+  {
+    "rank": "144",
+    "crimeIndex": "424",
+    "city": "Lincolnshire, IL ",
+    "population": " 7270"
+  },
+  {
+    "rank": "145",
+    "crimeIndex": "425",
+    "city": "Frankfort, IL ",
+    "population": " 18100"
+  },
+  {
+    "rank": "146",
+    "crimeIndex": "425",
+    "city": "Burr Ridge, IL ",
+    "population": " 10678"
+  },
+  {
+    "rank": "147",
+    "crimeIndex": "425",
+    "city": "Mokena, IL ",
+    "population": " 18804"
+  },
+  {
+    "rank": "148",
+    "crimeIndex": "427",
+    "city": "Beecher, IL ",
+    "population": " 4568"
+  },
+  {
+    "rank": "149",
+    "crimeIndex": "427",
+    "city": "Palatine, IL ",
+    "population": " 69015"
+  },
+  {
+    "rank": "150",
+    "crimeIndex": "430",
+    "city": "Palos Heights, IL ",
+    "population": " 12572"
+  },
+  {
+    "rank": "151",
+    "crimeIndex": "433",
+    "city": "Mount Prospect, IL ",
+    "population": " 54589"
+  },
+  {
+    "rank": "152",
+    "crimeIndex": "433",
+    "city": "Lemont, IL ",
+    "population": " 16376"
+  },
+  {
+    "rank": "153",
+    "crimeIndex": "433",
+    "city": "Brighton, IL ",
+    "population": " 2122"
+  },
+  {
+    "rank": "154",
+    "crimeIndex": "434",
+    "city": "Plainfield, IL ",
+    "population": " 40641"
+  },
+  {
+    "rank": "155",
+    "crimeIndex": "434",
+    "city": "Galena, IL ",
+    "population": " 3358"
+  },
+  {
+    "rank": "156",
+    "crimeIndex": "435",
+    "city": "Mundelein, IL ",
+    "population": " 31498"
+  },
+  {
+    "rank": "157",
+    "crimeIndex": "435",
+    "city": "Morton, IL ",
+    "population": " 16493"
+  },
+  {
+    "rank": "158",
+    "crimeIndex": "436",
+    "city": "Indian Head Park, IL ",
+    "population": " 3837"
+  },
+  {
+    "rank": "159",
+    "crimeIndex": "441",
+    "city": "Minooka, IL ",
+    "population": " 11225"
+  },
+  {
+    "rank": "160",
+    "crimeIndex": "442",
+    "city": "Wauconda, IL ",
+    "population": " 13189"
+  },
+  {
+    "rank": "161",
+    "crimeIndex": "442",
+    "city": "Trenton, IL ",
+    "population": " 2716"
+  },
+  {
+    "rank": "162",
+    "crimeIndex": "445",
+    "city": "Maryville, IL ",
+    "population": " 7727"
+  },
+  {
+    "rank": "163",
+    "crimeIndex": "447",
+    "city": "New Lenox, IL ",
+    "population": " 24747"
+  },
+  {
+    "rank": "164",
+    "crimeIndex": "449",
+    "city": "Marengo, IL ",
+    "population": " 7451"
+  },
+  {
+    "rank": "165",
+    "crimeIndex": "449",
+    "city": "Monticello, IL ",
+    "population": " 5400"
+  },
+  {
+    "rank": "166",
+    "crimeIndex": "451",
+    "city": "Coal Valley, IL ",
+    "population": " 3692"
+  },
+  {
+    "rank": "167",
+    "crimeIndex": "451",
+    "city": "Benld, IL ",
+    "population": " 1773"
+  },
+  {
+    "rank": "168",
+    "crimeIndex": "453",
+    "city": "Lacon, IL ",
+    "population": " 1759"
+  },
+  {
+    "rank": "169",
+    "crimeIndex": "454",
+    "city": "Barrington, IL ",
+    "population": " 10830"
+  },
+  {
+    "rank": "170",
+    "crimeIndex": "456",
+    "city": "Glenview, IL ",
+    "population": " 45400"
+  },
+  {
+    "rank": "171",
+    "crimeIndex": "457",
+    "city": "Lisle, IL ",
+    "population": " 22626"
+  },
+  {
+    "rank": "172",
+    "crimeIndex": "459",
+    "city": "Chatham, IL ",
+    "population": " 12131"
+  },
+  {
+    "rank": "173",
+    "crimeIndex": "463",
+    "city": "Northbrook, IL ",
+    "population": " 33396"
+  },
+  {
+    "rank": "174",
+    "crimeIndex": "464",
+    "city": "Roscoe, IL ",
+    "population": " 10724"
+  },
+  {
+    "rank": "175",
+    "crimeIndex": "468",
+    "city": "Worth, IL ",
+    "population": " 10827"
+  },
+  {
+    "rank": "176",
+    "crimeIndex": "469",
+    "city": "Bluffs, IL ",
+    "population": " 742"
+  },
+  {
+    "rank": "177",
+    "crimeIndex": "471",
+    "city": "Albion, IL ",
+    "population": " 2139"
+  },
+  {
+    "rank": "178",
+    "crimeIndex": "473",
+    "city": "Shorewood, IL ",
+    "population": " 16186"
+  },
+  {
+    "rank": "179",
+    "crimeIndex": "476",
+    "city": "Tonica, IL ",
+    "population": " 753"
+  },
+  {
+    "rank": "180",
+    "crimeIndex": "476",
+    "city": "Mahomet, IL ",
+    "population": " 7592"
+  },
+  {
+    "rank": "181",
+    "crimeIndex": "478",
+    "city": "De Soto, IL ",
+    "population": " 1475"
+  },
+  {
+    "rank": "182",
+    "crimeIndex": "478",
+    "city": "Atwood, IL ",
+    "population": " 1164"
+  },
+  {
+    "rank": "183",
+    "crimeIndex": "481",
+    "city": "Highland Park, IL ",
+    "population": " 29819"
+  },
+  {
+    "rank": "184",
+    "crimeIndex": "482",
+    "city": "South Jacksonville, IL ",
+    "population": " 3309"
+  },
+  {
+    "rank": "185",
+    "crimeIndex": "483",
+    "city": "Peotone, IL ",
+    "population": " 4122"
+  },
+  {
+    "rank": "186",
+    "crimeIndex": "483",
+    "city": "Bannockburn, IL ",
+    "population": " 1460"
+  },
+  {
+    "rank": "187",
+    "crimeIndex": "487",
+    "city": "Catlin, IL ",
+    "population": " 2157"
+  },
+  {
+    "rank": "188",
+    "crimeIndex": "488",
+    "city": "Park Ridge, IL ",
+    "population": " 37511"
+  },
+  {
+    "rank": "189",
+    "crimeIndex": "491",
+    "city": "Freeburg, IL ",
+    "population": " 4252"
+  },
+  {
+    "rank": "190",
+    "crimeIndex": "492",
+    "city": "Elmhurst, IL ",
+    "population": " 45105"
+  },
+  {
+    "rank": "191",
+    "crimeIndex": "493",
+    "city": "Marine, IL ",
+    "population": " 1199"
+  },
+  {
+    "rank": "192",
+    "crimeIndex": "493",
+    "city": "Roselle, IL ",
+    "population": " 22951"
+  },
+  {
+    "rank": "193",
+    "crimeIndex": "493",
+    "city": "Hometown, IL ",
+    "population": " 4358"
+  },
+  {
+    "rank": "194",
+    "crimeIndex": "495",
+    "city": "Lake Zurich, IL ",
+    "population": " 19849"
+  },
+  {
+    "rank": "195",
+    "crimeIndex": "496",
+    "city": "La Grange, IL ",
+    "population": " 15675"
+  },
+  {
+    "rank": "196",
+    "crimeIndex": "499",
+    "city": "Carthage, IL ",
+    "population": " 2600"
+  },
+  {
+    "rank": "197",
+    "crimeIndex": "499",
+    "city": "Albany, IL ",
+    "population": " 1047"
+  },
+  {
+    "rank": "198",
+    "crimeIndex": "501",
+    "city": "Wilmette, IL ",
+    "population": " 27345"
+  },
+  {
+    "rank": "199",
+    "crimeIndex": "501",
+    "city": "South Elgin, IL ",
+    "population": " 22126"
+  },
+  {
+    "rank": "200",
+    "crimeIndex": "502",
+    "city": "Deer Park, IL ",
+    "population": " 3247"
+  }
+]
