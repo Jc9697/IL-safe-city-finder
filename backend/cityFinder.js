@@ -1,9 +1,6 @@
 import { chromium } from "playwright";
 import * as fs from "node:fs/promises";
-import client from "./client.js";
-import dotenv from 'dotenv';
-
-dotenv.config();
+import client from "./pool.js";
 
 async function checkFile() {
   try {
