@@ -18,6 +18,7 @@ await checkFile();
 async function scrape() {
   const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
+  //Route method good for blocking ads on sites which can actually prevent proper scraping
   await page.route("**/*.{png,jpg,jpeg,gif,svg}", (route) => route.abort());
   await page.route(/.*doubleclick\.net.*/, (route) => route.abort());
   const url =

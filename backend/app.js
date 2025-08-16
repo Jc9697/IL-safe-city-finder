@@ -6,21 +6,29 @@ const port = 3000;
 
 app.use(express.json());
 
-// app.use("/", async (req, res) => {
-//   let client;
-//   try {
-//     client = await pool.connect();
-//     const results = await client.query("SELECT * FROM cities");
-//     return results.rows.map((row) => console.log(row));
-//   } catch (err) {
-//     console.error(err);
-//   } finally {
-//     if (client) {
-//       client.release();
-//     }
-//   }
-//   res.end();
-// });
+app.use("/allCities", async (req, res) => {
+  let client;
+  try {
+    client = await pool.connect();
+    const results = await client.query("SELECT * FROM cities");
+    const resultLoop = results.rows.map((row) => {
+      return {
+        rank: row.rank,
+        crimeIndex: row.crime_index,
+        city: row.city,
+        population: row.population,
+      };
+    });
+
+    res.type("json").send(JSON.stringify(resultLoop, null, 2));
+  } catch (err) {
+    console.error(err);
+  } finally {
+    if (client) {
+      client.release();
+    }
+  }
+});
 
 app.use("/randomCity", async (req, res) => {
   let client;
