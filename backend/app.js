@@ -1,10 +1,19 @@
 import express from "express";
 import pool from "./pool.js";
+import { rateLimit } from "express-rate-limit";
+
+const limiter = rateLimit({
+  windowMs: 2 * 60 * 1000,
+  limit: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+});
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(limiter);
 
 app.use("/allCities", async (req, res) => {
   let client;
