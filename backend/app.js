@@ -1,4 +1,5 @@
 import express from "express";
+import path from 'path'; 
 import pool from "./pool.js";
 import { rateLimit } from "express-rate-limit";
 
@@ -13,9 +14,12 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(express.static("views"));
+app.use(express.static(path.join('public')));
 app.use(limiter);
+app.set("view engine", "ejs");
 
-app.use("/allCities", async (req, res) => {
+app.get("/allCities", async (req, res) => {
   let client;
   try {
     client = await pool.connect();
@@ -39,13 +43,13 @@ app.use("/allCities", async (req, res) => {
   }
 });
 
-app.use("/randomCity", async (req, res) => {
+app.get("/randomCity", async (req, res) => {
   let client;
   try {
     client = await pool.connect();
     const query = "SELECT * FROM cities ORDER BY RANDOM() LIMIT 1";
     const result = await client.query(query);
-    const resultLoop = result.rows.map((row) => {
+    const resultLoop = await result.rows.map((row) => {
       return {
         rank: row.rank,
         crimeIndex: row.crime_index,
@@ -54,7 +58,7 @@ app.use("/randomCity", async (req, res) => {
       };
     });
 
-    res.type("json").send(JSON.stringify(resultLoop, null, 2));
+    res.render("index", { cityInfo: resultLoop[0] });
   } catch (err) {
     console.error(err);
   } finally {
