@@ -18,10 +18,11 @@
         <button type="submit" id="getUserCity">Get new city</button>
       </form>
       <div id="cityInfo">
-        <p>Rank: <%= cityInfo.rank %></p>
+        <h1 id="message"></h1>
+        <p id="rank">Rank: <%= cityInfo.rank %></p>
         <p id="city">City: <%= cityInfo.city %></p>
-        <p>Population: <%= cityInfo.population %></p>
-        <p>Crime Index: <%= cityInfo.crimeIndex %></p>
+        <p id="population">Population: <%= cityInfo.population %></p>
+        <p id="crime">Crime Index: <%= cityInfo.crimeIndex %></p>
       </div>
     </div>
     <script src="../client.js" type="module"></script>

@@ -1,135 +1,121 @@
 async function geolocate() {
-  getCoordinates();
+  await getCoordinates();
 
   async function getCoordinates() {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition((position) => {
-        const userLongitude = position.coords.longitude;
-        const userLatitude = position.coords.latitude;
-        start = [userLongitude, userLatitude];
+    let message = document.getElementById("message");
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          console.log(position);
+          const userLongitude = position.coords.longitude;
+          const userLatitude = position.coords.latitude;
+          start = [userLongitude, userLatitude];
 
-        const cityElement = document.getElementById("city").textContent.split(",");
-        const city = cityElement[0];
-        const state = cityElement[1];
-        randomCityCoordinates();
+          const cityElement = document
+            .getElementById("city")
+            .textContent.split(",");
+          const city = cityElement[0];
+          const state = cityElement[1];
+          randomCityCoordinates();
 
-        async function randomCityCoordinates() {
-          let message;
-          try {
-            const response = await fetch(
-              `https://api.mapbox.com/search/geocode/v6/forward?access_token=pk.eyJ1IjoiamM5Njk3IiwiYSI6ImNtZmU4emtteDA0OWsycXB4NzdoZHhhNG4ifQ.tosOkW-tBFJcGKJM0x7tFg&place=${city}&region=${state}`
-            );
+          async function randomCityCoordinates() {
+            try {
+              const response = await fetch(
+                `https://api.mapbox.com/search/geocode/v6/forward?access_token=pk.eyJ1IjoiamM5Njk3IiwiYSI6ImNtZmU4emtteDA0OWsycXB4NzdoZHhhNG4ifQ.tosOkW-tBFJcGKJM0x7tFg&place=${city}&region=${state}`
+              );
 
-            if (!response.ok) {
-              message = `An error has occured: ${response.status}`;
-              throw new Error(message);
-            } else {
-              const data = await response.json();
-              const randomCityLongitude =
-                data.features[0].geometry.coordinates[0];
-              const randomCityLatitude =
-                data.features[0].geometry.coordinates[1];
-              map.on("load", () => {
-                const defaultEnd = [randomCityLongitude, randomCityLatitude];
-                // add origin circle to the map
+              if (!response.ok) {
+                message = `An error has occured: ${response.status}`;
+                throw new Error(message);
+              } else {
+                const data = await response.json();
+                const randomCityLongitude =
+                  data.features[0].geometry.coordinates[0];
+                const randomCityLatitude =
+                  data.features[0].geometry.coordinates[1];
+                map.on("load", () => {
+                  const defaultEnd = [randomCityLongitude, randomCityLatitude];
+                  // add origin circle to the map
 
-                map.addLayer({
-                  id: "origin-circle",
-                  type: "circle",
-                  source: {
-                    type: "geojson",
-                    data: {
-                      type: "FeatureCollection",
-                      features: [
-                        {
-                          type: "Feature",
-                          properties: {},
-                          geometry: {
-                            type: "Point",
-                            coordinates: start,
+                  map.addLayer({
+                    id: "origin-circle",
+                    type: "circle",
+                    source: {
+                      type: "geojson",
+                      data: {
+                        type: "FeatureCollection",
+                        features: [
+                          {
+                            type: "Feature",
+                            properties: {},
+                            geometry: {
+                              type: "Point",
+                              coordinates: start,
+                            },
                           },
-                        },
-                      ],
-                    },
-                  },
-                  paint: {
-                    "circle-radius": 10,
-                    "circle-color": "#4ce05b",
-                  },
-                });
-
-                // add destination circle to the map
-                map.addLayer({
-                  id: "destination-circle",
-                  type: "circle",
-                  source: {
-                    type: "geojson",
-                    data: {
-                      type: "FeatureCollection",
-                      features: [
-                        {
-                          type: "Feature",
-                          properties: {},
-                          geometry: {
-                            type: "Point",
-                            coordinates: defaultEnd,
-                          },
-                        },
-                      ],
-                    },
-                  },
-                  paint: {
-                    "circle-radius": 10,
-                    "circle-color": "#f30",
-                  },
-                });
-
-                map.on("click", (event) => {
-                  const coords = Object.keys(event.lngLat).map(
-                    (key) => event.lngLat[key]
-                  );
-                  const end = {
-                    type: "FeatureCollection",
-                    features: [
-                      {
-                        type: "Feature",
-                        properties: {},
-                        geometry: {
-                          type: "Point",
-                          coordinates: coords,
-                        },
+                        ],
                       },
-                    ],
-                  };
+                    },
+                    paint: {
+                      "circle-radius": 10,
+                      "circle-color": "#4ce05b",
+                    },
+                  });
 
-                  map.getSource("destination-circle").setData(end);
+                  // add destination circle to the map
+                  map.addLayer({
+                    id: "destination-circle",
+                    type: "circle",
+                    source: {
+                      type: "geojson",
+                      data: {
+                        type: "FeatureCollection",
+                        features: [
+                          {
+                            type: "Feature",
+                            properties: {},
+                            geometry: {
+                              type: "Point",
+                              coordinates: defaultEnd,
+                            },
+                          },
+                        ],
+                      },
+                    },
+                    paint: {
+                      "circle-radius": 10,
+                      "circle-color": "#f30",
+                    },
+                  });
 
-                  getRoute(coords);
+                  // make an initial directions request on load
+                  getRoute(defaultEnd);
                 });
-
-                // make an initial directions request on load
-                getRoute(defaultEnd);
-              });
+              }
+            } catch (err) {
+              console.error(err);
             }
-          } catch (err) {
-            console.error(err);
           }
+        },
+        (err) => {
+          message.textContent = "User denied geolocation";
+          console.error(err);
         }
-      });
+      );
     }
   }
 }
 
 geolocate();
 
-let start;
+let start = [];
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiamM5Njk3IiwiYSI6ImNtZmU4emtteDA0OWsycXB4NzdoZHhhNG4ifQ.tosOkW-tBFJcGKJM0x7tFg";
 const map = new mapboxgl.Map({
   container: "map", // container id
   style: "mapbox://styles/mapbox/streets-v12", // map style
-  center: [ -89.290635, 40.323865 ], // starting position
+  center: [-89.290635, 40.323865], // starting position
   zoom: 5.5,
 });
 
@@ -173,4 +159,3 @@ async function getRoute(end) {
     });
   }
 }
-
