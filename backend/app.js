@@ -18,31 +18,7 @@ app.use(express.static(path.join('public')));
 app.use(limiter);
 app.set("view engine", "ejs");
 
-app.get("/allCities", async (req, res) => {
-  let client;
-  try {
-    client = await pool.connect();
-    const results = await client.query("SELECT * FROM cities");
-    const resultLoop = results.rows.map((row) => {
-      return {
-        rank: row.rank,
-        crimeIndex: row.crime_index,
-        city: row.city,
-        population: row.population,
-      };
-    });
-
-    res.type("json").send(JSON.stringify(resultLoop, null, 2));
-  } catch (err) {
-    console.error(err);
-  } finally {
-    if (client) {
-      client.release();
-    }
-  }
-});
-
-app.get("/randomCity", async (req, res) => {
+app.get("/", async (req, res) => {
   let client;
   try {
     client = await pool.connect();
