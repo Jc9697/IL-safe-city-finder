@@ -1,5 +1,5 @@
 import express from "express";
-import path from 'path'; 
+import path from "path";
 import pool from "./pool.js";
 import { rateLimit } from "express-rate-limit";
 
@@ -12,9 +12,10 @@ const limiter = rateLimit({
 
 const app = express();
 const port = 3000;
+const host = "0.0.0.0";
 
 app.use(express.json());
-app.use(express.static(path.join('public')));
+app.use(express.static(path.join("public")));
 app.use(limiter);
 app.set("view engine", "ejs");
 
@@ -43,6 +44,6 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(port, host, () => {
   console.log(`App listening on port ${port}`);
 });
