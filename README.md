@@ -4,8 +4,8 @@ Safe city finder is an API that provides the user with a random city to potentia
 
 ## Installation
 
-No installation required, simply use the url and accept the geolocation request.
-[View the app here:](https://il-safe-city-finder.onrender.com/)
+No installation required, simply use the url and accept the geolocation request. View the app
+[here](https://il-safe-city-finder.onrender.com/)
 
 ## Roadmap
 
